@@ -5,6 +5,8 @@
 
 [build.environment]
   NODE_VERSION = "18"
+  NPM_FLAGS = "--no-optional"
+  ROLLUP_SKIP_NODEJS_RESOLUTION = "true"
 
 [[redirects]]
   from = "/api/*"
