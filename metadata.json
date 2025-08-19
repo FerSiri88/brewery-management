@@ -1,0 +1,5 @@
+{
+  "name": "Asistente de Gestión de Bodega Cervecera",
+  "description": "Una aplicación para visualizar y consultar el estado de los tanques de cerveza en una bodega, utilizando IA para asistir en las consultas.",
+  "requestFramePermissions": []
+}
