@@ -30,8 +30,9 @@ export default defineConfig(({ mode }) => {
           warn(warning);
         },
       },
-      target: "esnext",
+      target: "es2020",
       minify: "esbuild",
+      ssr: false,
     },
     optimizeDeps: {
       exclude: ["@rollup/rollup-linux-x64-gnu"],
